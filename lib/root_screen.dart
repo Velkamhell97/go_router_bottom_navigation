@@ -60,7 +60,6 @@ class _Page1State extends State<Page1> {
       body: Center(
         child: Text('Counter Page 1: $_counter'),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerTop,
       floatingActionButton: FloatingActionButton(
         heroTag: null,
         onPressed: () => setState(() => _counter++),
@@ -86,7 +85,6 @@ class _Page2State extends State<Page2> {
       body: Center(
         child: Text('Counter Page 2: $_counter'),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerTop,
       floatingActionButton: FloatingActionButton(
         heroTag: null,
         onPressed: () => setState(() => _counter++),
@@ -112,7 +110,6 @@ class _Page3State extends State<Page3> {
       body: Center(
         child: Text('Counter Page 3: $_counter'),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerTop,
       floatingActionButton: FloatingActionButton(
         heroTag: null,
         onPressed: () => setState(() => _counter++),
